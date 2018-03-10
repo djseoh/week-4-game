@@ -1,0 +1,32 @@
+#social-media{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.title{
+    font-family: 'Sacramento', cursive;
+    font-weight: 900;
+    font-size: 75px;
+    color: white;
+}
+
+p{
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.text{
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 900;
+}
+.other-text{
+    font-family: 'Cabin Sketch', cursive;
+    color: white;
+}
+.final-text{
+    font-family: 'Concert One', cursive;
+}
+#background{
+    background-color: rgb(100, 100, 194);
+}

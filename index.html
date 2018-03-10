@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Likes Game</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Concert+One|Julius+Sans+One|Sacramento" rel="stylesheet">
+</head>
+<body>
+    <div id="background" class="jumbotron">
+    <header>
+        <h1 class="title">Social Media Marketer!</h1>
+    </header>
+    <div>
+        <h1 class="text">Instructions:</h1>
+        <p>You're a social media marketer, and you need to earn some likes!</p>
+        <p>Use each Social Media platform at your disposal.</p>
+        <p>Reach the target to win!</p>
+    </div>
+    <div id="guessing-number" class="final-text">
+        <h2><span id="number"></span></h2>
+    </div>
+
+    <div id="social-media"></div>
+    
+    <div>
+        <h2 id="likes-counter" class="other-text">Number of your likes:</h2>
+    </div>
+    <div id="status-bar" class="other-text">
+        <h3>Game Status: <span id="status"></span></h3>
+        <h3>Wins: <span id="win"></span></h3>
+        <h3>Losses: <span id="loss"></span></h3>
+    </div>
+    </div>
+    <!-- JQuery Link -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Javascript Link -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>

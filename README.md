@@ -1,0 +1,1 @@
+This is a game where you click the social media platform in order to acquire likes and reach your target.
